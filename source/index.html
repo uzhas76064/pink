@@ -6,6 +6,219 @@
   <title>Document</title>
 </head>
 <body class="page__body">
+  <header class="page-header">
+    <a href="index.html" class="page-header__logo">
+      <img src="../images/icons/logotype-white-desktop.svg" alt="Логотип Pink">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="" class="main-nav__link">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="" class="main-nav__link">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="" class="main-nav__link">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="" class="main-nav__link">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="promo">
+      <h2 class="visually-hidden">Скачать приложение Pink</h2>
+      <div class="promo-wrapper">
+        <h2 class="promo__title">
+          Взгляните на жизнь иначе!
+        </h2>
+        <button class="button">Скачать приложение</button>
 
+        <ul class="promo__social-list">
+          <li class="promo__social-list__item">
+            <a class="promo__social-list__link" href="">
+              <img src="../images/icons/apple-logo.svg" alt="Скачать для Apple">
+            </a>
+          </li>
+          <li class="promo__social-list__item">
+            <a class="promo__social-list__link" href="">
+              <img src="../images/icons/android-logo.svg" alt="Скачать для Android">
+            </a>
+          </li>
+          <li class="promo__social-list__item">
+            <a class="promo__social-list__link" href="">
+              <img src="../images/icons/microsoft-logo.svg" alt="Скачать для Windows">
+            </a>
+          </li>
+        </ul>
+        <small class="promo__annotation">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</small>
+      </div>
+    </section>
+  </header>
+
+  <main class="page-main">
+    <section class="advantages">
+      <h2 class="visually-hidden">Преимущества Pink</h2>
+      <div class="advantages-wrapper">
+        <p class="advantages__text"></p>
+        <ul class="advantages__list">
+          <li class="advantages__list__item">
+            <img class="advantages__item__image" src="" alt="">
+            <h3 class="advantages__item__title">Поднимает
+              настроение</h3>
+            <p class="advantages__item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="advantages__list__item">
+            <img class="advantages__item__image" src="" alt="">
+            <h3 class="advantages__item__title">Меняет мир
+              вокруг</h3>
+            <p class="advantages__item__text">Сделайте снимок и
+              украсьте его смайликом
+              или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="advantages__list__item">
+            <img class="advantages__item__image" src="" alt="">
+            <h3 class="advantages__item__title">Заводит
+              новых друзей</h3>
+            <p class="advantages__item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями
+              и заводите новых</p>
+          </li>
+        </ul>
+        <div class="advantages__effect">
+          <img class="advantages__effect__image" src="" alt="">
+          <h3 class="advantages__effect__title">Эффект на 24 часа!</h3>
+          <p class="advantages__effect__text">Британские ученые провели исследования и доказали,
+            что положительный эффект от использования приложения длится целые сутки!</p>
+          <a class="advantages__effect__link" href="#">Узнать больше об исследовании</a>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper slider">
+        <ul class="reviews__list">
+          <li class="reviews__item slider__item">
+            <h3 class="reviews__title">Николай Петров</h3>
+            <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+              привычные серые вещи! А еще я познакомился со своей будущей женой в
+              комментариях к выложенной фотографии!»</p>
+            <small class="reviews__profession">25 лет, водитель трамвая</small>
+          </li>
+        </ul>
+        <p class="reviews__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current" type="button">1</button>
+          <button class="slider__toggle" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+    <section class="plans">
+      <h2 class="visually-hidden">Таблица тарифов подписки</h2>
+      <div class="plans__wrapper slider">
+        <table class="plans__table table">
+          <tr class="table__row">
+            <th class="table__heading"></th>
+            <th class="table__heading">
+              <b class="table__heading__title">База</b>
+              <span class="table__heading__info">1,99 USD</span>
+            </th>
+            <th class="table__heading">
+              <b class="table__heading__title">СТАНДАРТ</b>
+              <span class="table__heading__info">3,99 USD</span>
+            </th>
+            <th class="table__heading">
+              <b class="table__heading__title">АНЛИМ</b>
+              <span class="table__heading__info">9,99 USD</span>
+            </th>
+          </tr>
+          <tr class="table__row slider__item">
+            <td class="table__data">Розовый фильтр</td>
+            <td class="table__data">yes</td>
+            <td class="table__data">yes</td>
+            <td class="table__data">yes</td>
+          </tr>
+          <tr class="table__row slider__item">
+            <td class="table__data">Смайлики</td>
+            <td class="table__data">no</td>
+            <td class="table__data">yes</td>
+            <td class="table__data">yes</td>
+          </tr>
+          <tr class="table__row slider__item">
+            <td class="table__data">Комментарии</td>
+            <td class="table__data">no</td>
+            <td class="table__data">no</td>
+            <td class="table__data">yes</td>
+          </tr>
+        </table>
+        <p class="plans__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current">1</button>
+          <button class="slider__toggle">2</button>
+          <button class="slider__toggle">3</button>
+        </p>
+      </div>
+    </section>
+    <section class="questions">
+      <h2 class="visually-hidden">Контакты для дополнительных вопросов</h2>
+      <div class="questions__wrapper">
+        <h2 class="questions__title">Остались вопросы?
+          Свяжитесь с нами!</h2>
+        <ul class="questions__contacts-list contacts">
+          <li class="contacts__item">
+            <b class="contacts__item__title">Звоните:</b>
+            <address class="contacts__address">
+              <a href="tel:+78125556666" class="contacts__link">+7 (812) 555-66-66</a>
+            </address>
+          </li>
+          <li class="contacts__item">
+            <b class="contacts__item__title">Пишите:</b>
+            <address class="contacts__address">
+              <a href="mailto:mail@htmlacademy.ru" class="contacts__link">mail@htmlacademy.ru</a>
+            </address>
+          </li>
+          <li class="contacts__item">
+            <b class="contacts__item__title">Приезжайте в гости:</b>
+            <address class="contacts__address">
+              ул. Большая Конюшенная, 19/8
+            </address>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="map">
+      <h2 class="visually-hidden">Местонахождение нашего офиса на карте</h2>
+      <div class="map__content"></div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <img class="page-footer__logo" src="../images/icons/logotype-blue-desktop.svg" alt="Логотип Pink">
+      <ul class="page-footer__social socials">
+        <li class="socials__item">
+          <a href="" class="socials__link">
+            <span class="visually-hidden">Twitter</span>
+          </a>
+        </li>
+        <li class="page-footer__socials__item">
+          <a href="" class="socials__link">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="" class="socials__link">
+            <span class="visually-hidden">Youtube</span>
+          </a>
+        </li>
+      </ul>
+      <a href="https://htmlacademy.ru" class="page-footer__developer">
+        <span>Разработано</span>
+        <img src="../images/icons/html-academy.svg" alt="htmlacademy">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

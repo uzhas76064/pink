@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Фотографии пользователей</title>
 </head>
-<body>
+<body class="page__body">
 <header class="page-header">
   <a href="index.html" class="page-header__logo">
     <img src="../images/icons/logotype-white-desktop.svg" alt="Логотип Pink">
@@ -33,7 +33,122 @@
   </nav>
 </header>
 
-<main></main>
+<main class="page-main">
+  <div class="catalog-promo">
+    <h1 class="catalog-promo__title">Фотографии
+      пользователей</h1>
+  </div>
+
+  <section class="users-photos">
+    <h2 class="visually-hidden">Фотографии пользователей</h2>
+    <div class="users-photos__wrapper photos">
+      <p class="photos__main-text">Взгляните на фотографии, которые выкладывают пользователи!
+        Видите, как не хватает ваших?</p>
+      <ul class="photos__list">
+        <li class="photos__item photos__item--big">
+          <figure class="photos__item__panorama panorama">
+            <img class="panorama__image" src="../images/content/panorama-desktop.jpg"
+                 alt="Панорама с подвесным мостом над горами и лесом">
+            <div class="panorama__text">ПАНОРАМА ДНЯ</div>
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Анна</h3>
+              <small class="photos-description__time">(12 часов назад)</small>
+              <p class="photos-description__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <p class="photos-description__likes">Нравится: 215</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos__item">
+          <figure class="photos__item__wrapper">
+            <img class="photos__item__image" src="../images/content/photo-1.png" alt="Камера снимает машину">
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Левон</h3>
+              <small class="photos-description__time">(12 часов назад)</small>
+              <p class="photos-description__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+              <p class="photos-description__likes">Нравится: 356</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos__item">
+          <figure class="photos__item__wrapper">
+            <img class="photos__item__image" src="../images/content/photo-2.png" alt="Барабанная установка">
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Антон</h3>
+              <small class="photos-description__time">(12 часов назад)</small>
+              <p class="photos-description__text">Соседи будут рады!</p>
+              <p class="photos-description__likes">Нравится: 666</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos__item">
+          <figure class="photos__item__wrapper">
+            <img class="photos__item__image" src="../images/content/photo-3.png" alt="Вид на окна">
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Борис</h3>
+              <small class="photos-description__time">(20 часов назад)</small>
+              <p class="photos-description__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+              <p class="photos-description__likes">Нравится: 215</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos__item">
+          <figure class="photos__item__wrapper">
+            <img class="photos__item__image" src="../images/content/photo-4.png" alt="Теплица" >
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Сергей</h3>
+              <small class="photos-description__ime">(25 часов назад)</small>
+              <p class="photos-description__text">Самая кубанская в мире!</p>
+              <p class="photos-description__likes">Нравится: 4</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos__item">
+          <figure class="photos__item__wrapper">
+            <img class="photos__item__image" src="../images/content/photo-5.png" alt="Человек, сидящий на камнях, на горе">
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Максим</h3>
+              <small class="photos-description__time">(40 часов назад)</small>
+              <p class="photos-description__text">Где снег-то?</p>
+              <p class="photos-description__likes">Нравится: 150</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos__item">
+          <figure class="photos__item__wrapper">
+            <img class="photos__item__image" src="../images/content/photo-6.png" alt="Крыло самолёта во время полёта в небе">
+            <figcaption class="photos__item__info photos-description">
+              <h3 class="photos-description__user">Надежда</h3>
+              <small class="photos-description__time">(45 часов назад)</small>
+              <p class="photos-description__text">Всем GM и взаимные лайки!</p>
+              <p class="photos-description__likes">Нравится: 2560</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="post-photo">
+    <h2 class="visually-hidden">Отредактивровать и запостить фото</h2>
+    <p class="post-photo__text">Затмите их всех!
+      Выкладывайте все, что накопилось в телефоне!</p>
+    <div class="post-photo__wrapper edit-photo">
+      <img class="edit-photo__image" src="../images/content/photo-7.png" alt="Заснеженная дорога с лесом">
+      <form action="https://echo.htmlacademy.ru" class="edit-photo__form" method="post">
+        <fieldset class="edit-photo__filters">
+          <legend class="visually-hidden">Фильтры для изображения</legend>
+          <input type="range" name="">
+          <input type="range" name="">
+          <input type="range" name="">
+        </fieldset>
+        <div class="edit-photo__buttons">
+          <button class="button button--apply" type="button">Запостить</button>
+          <button class="button button--secondary" type="button">Отмена</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
 
 <footer class="page-footer">
   <div class="page-footer__wrapper">

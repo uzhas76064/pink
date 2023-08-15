@@ -8,14 +8,11 @@
 </head>
 <body class="page__body">
   <header class="page-header">
-    <a href="index.html" class="page-header__logo">
-      <img src="images/icons/logotype-white-desktop.svg" alt="Логотип Pink">
-    </a>
     <nav class="main-nav">
-      <button class="main-nav__toggle">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
       <div class="main-nav__wrapper">
+        <a href="index.html" class="main-nav__logo">
+          <img src="images/icons/logotype-white-desktop.svg" alt="Логотип Pink">
+        </a>
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a href="index.html" class="main-nav__link">Главная</a>
@@ -30,43 +27,51 @@
             <a href="" class="main-nav__link">HTML Academy</a>
           </li>
         </ul>
+        <button class="main-nav__toggle" style="display: none">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
       </div>
     </nav>
-  </header>
-
-  <main class="page-main">
     <section class="promo">
       <h2 class="visually-hidden">Скачать приложение Pink</h2>
       <div class="promo-wrapper">
         <h2 class="promo__title">
           Взгляните на жизнь иначе!
         </h2>
-        <button class="button">Скачать приложение</button>
 
-        <ul class="promo__devices-list devices-list">
-          <li class="devices-list__item">
-            <a class="devices-list__link" href="">
-              <img src="images/icons/apple-logo.svg" alt="Скачать для Apple">
-            </a>
-          </li>
-          <li class="devices-list__item">
-            <a class="devices-list__link" href="">
-              <img src="images/icons/android-logo.svg" alt="Скачать для Android">
-            </a>
-          </li>
-          <li class="devices-list__item">
-            <a class="devices-list__link" href="">
-              <img src="images/icons/microsoft-logo.svg" alt="Скачать для Windows">
-            </a>
-          </li>
-        </ul>
-        <small class="promo__annotation">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</small>
+        <div class="devices-wrapper">
+          <button class="button">Скачать приложение</button>
+
+          <ul class="promo__devices-list devices-list">
+            <li class="devices-list__item">
+              <a class="devices-list__link" href="">
+                <img src="images/icons/apple-logo.svg" alt="Скачать для Apple">
+              </a>
+            </li>
+            <li class="devices-list__item">
+              <a class="devices-list__link" href="">
+                <img src="images/icons/android-logo.svg" alt="Скачать для Android">
+              </a>
+            </li>
+            <li class="devices-list__item">
+              <a class="devices-list__link" href="">
+                <img src="images/icons/microsoft-logo.svg" alt="Скачать для Windows">
+              </a>
+            </li>
+          </ul>
+          <small class="promo__annotation">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows
+            8</small></div>
       </div>
     </section>
+  </header>
+
+  <main class="page-main">
     <section class="advantages">
       <h2 class="visually-hidden">Преимущества Pink</h2>
       <div class="advantages-wrapper">
-        <p class="advantages__text"></p>
+        <p class="advantages__text">Устали от серости мегаполиса?</p>
+        <p class="advantages__text"> Нам есть, что вам
+          предложить!</p>
         <ul class="advantages__list">
           <li class="advantages__list__item">
             <img class="advantages__item__image" src="images/content/iphone.png" alt="">
@@ -90,7 +95,7 @@
               и заводите новых</p>
           </li>
         </ul>
-        <div class="advantages__effect">
+        <div class="advantages__effect" style="display: none">
           <img class="advantages__effect__image" src="images/content/timer.png" alt="">
           <h3 class="advantages__effect__title">Эффект на 24 часа!</h3>
           <p class="advantages__effect__text">Британские ученые провели исследования и доказали,
@@ -107,7 +112,7 @@
             <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
               привычные серые вещи! А еще я познакомился со своей будущей женой в
               комментариях к выложенной фотографии!»</p>
-            <small class="reviews__profession">25 лет, водитель трамвая</small>
+            <small class="reviews__profession" style="display: none">25 лет, водитель трамвая</small>
           </li>
         </ul>
         <p class="reviews__toggles slider__toggles">

@@ -1,0 +1,6 @@
+@import "../mixins";
+@import "../variables";
+
+.button {
+  @include button-round($header-text-color);
+}

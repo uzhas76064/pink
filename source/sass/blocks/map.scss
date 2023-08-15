@@ -1,0 +1,8 @@
+@import "../mixins";
+@import "../variables";
+
+.map {
+  &__content {
+    text-align: center;
+  }
+}

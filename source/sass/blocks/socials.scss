@@ -1,0 +1,11 @@
+@import "../mixins";
+@import "../variables";
+
+.socials {
+  list-style: none;
+
+  @include reset;
+
+  display: flex;
+  gap: 14px;
+}

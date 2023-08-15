@@ -1,0 +1,23 @@
+@import "../variables";
+
+.main-nav {
+  background-color: $nav-color;
+
+  &__logo {
+    color: inherit;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    list-style: none;
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    color: inherit;
+  }
+
+}

@@ -1,0 +1,9 @@
+@import "../variables";
+
+.page-header {
+  position: relative;
+  background: url("../../images/background/hand-with-phone.png") no-repeat,
+              url("../../images/background/back-desktop.jpg") no-repeat no-repeat center;
+  background-size: cover;
+  color: $header-text-color;
+}

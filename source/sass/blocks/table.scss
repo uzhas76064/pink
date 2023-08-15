@@ -1,0 +1,41 @@
+@import "../variables";
+@import "../mixins";
+
+.table {
+  border-collapse: collapse;
+
+  &__heading, &__data {
+    border: 2px solid $table-border;
+  }
+
+  &__heading:not(:first-child) {
+    @include table-heading;
+  }
+
+  &__heading:first-child {
+    border: none;
+  }
+
+  &__heading__info {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+    text-transform: uppercase;
+  }
+
+  &__data {
+    padding: 12px 60px;
+    text-align: center;
+  }
+
+  &__data--filter, &__data--emoji,  &__data--comments {
+    padding: 18px 24px 18px 15px;
+    text-align: left;
+    color: $nav-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    text-transform: uppercase;
+  }
+}

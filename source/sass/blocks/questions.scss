@@ -1,0 +1,10 @@
+@import "../mixins";
+@import "../variables";
+
+.questions {
+  text-align: center;
+
+  &__title {
+    @include set-text(24px, 300, $nav-color, 120%);
+  }
+}

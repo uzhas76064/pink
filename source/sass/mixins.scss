@@ -23,6 +23,15 @@
   line-height: $line-height;
 }
 
+@mixin set-text($size, $weight, $color, $lh: normal) {
+  color: $color;
+  text-align: center;
+  font-size: $size;
+  font-style: normal;
+  font-weight: $weight;
+  line-height: $lh;
+}
+
 @mixin common-text {
   color: #283645;
   text-align: center;
